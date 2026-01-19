@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+  <defs>
+    <linearGradient id="wed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbc2eb"/>
+      <stop offset="100%" stop-color="#a6c1ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="24" fill="url(#wed)"/>
+  <text x="50%" y="50%" fill="#fff" font-size="36" text-anchor="middle" dy=".3em">
+    Wedding Events
+  </text>
+</svg>
