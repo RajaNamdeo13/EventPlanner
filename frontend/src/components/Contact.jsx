@@ -15,18 +15,18 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/v1/message/send",
-        {
-          name,
-          email,
-          subject,
-          message,
-        },
-        {
-          withCredentials: true,
-          headers: { "Content-Type": "application/json" },
-        }
-      );
+        `${import.meta.env.VITE_API_URL}/api/v1/message/send`,
+      {
+        name,
+        email,
+        subject,
+        message,
+      },
+    {
+      headers: { "Content-Type": "application/json" },
+    }
+  );
+
 
       toast.success(response.data.message || "Message sent successfully!");
       

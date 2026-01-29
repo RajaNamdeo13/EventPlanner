@@ -9,6 +9,10 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Admin from "./pages/Admin";
+
+<Route path="/admin" element={<Admin />} />
+
 
 const App = () => {
   return (

@@ -22,6 +22,12 @@ const messageSchema = new mongoose.Schema({
     required: [true, "Message Required!"],
     minLength: [10, "Message must contain at least 10 characters!"],
   },
+  priority: {
+  type: String,
+  enum: ["urgent", "normal", "low"],
+  default: "normal",
+},
+
 });
 
 export const Message = mongoose.model("Message", messageSchema);

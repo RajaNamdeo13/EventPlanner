@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
-    <section className="hero">
+    <section className="hero" id = "hero">
       <img src="/event.jpg" alt="event management" />
 
       <div className="item">
