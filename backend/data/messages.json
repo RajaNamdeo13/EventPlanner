@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "msg-1789633560392-72",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "subject": "Annual Conference Booking",
+    "message": "We need an event planner for our corporate annual conference.",
+    "eventType": "Corporate Gala",
+    "eventDate": "",
+    "guests": 120,
+    "budget": ",000 - ,000",
+    "priority": "normal",
+    "status": "confirmed",
+    "adminNotes": "Verified",
+    "createdAt": "2026-09-17T08:26:00.392Z",
+    "updatedAt": "2026-09-17T08:26:30.322Z"
+  },
+  {
+    "_id": "msg-101",
+    "name": "Sophia Martinez",
+    "email": "sophia.m@example.com",
+    "subject": "Dream Wedding In Tuscany Theme",
+    "message": "Hi! We are planning a sunset wedding next spring for about 180 guests. We would love full planning, floral styling, and music coordination.",
+    "eventType": "Wedding Planning",
+    "eventDate": "2027-04-18",
+    "guests": 180,
+    "budget": "$25,000 - $35,000",
+    "priority": "urgent",
+    "status": "new",
+    "adminNotes": "Bride requested a call this Friday afternoon.",
+    "createdAt": "2026-09-17T04:25:28.485Z"
+  },
+  {
+    "_id": "msg-102",
+    "name": "Marcus Vance",
+    "email": "m.vance@apextech.io",
+    "subject": "Annual Corporate Leadership Summit",
+    "message": "Apex Tech is organizing our end-of-year executive summit for 300 international guests. We need high-end staging, VIP hospitality, and catering.",
+    "eventType": "Corporate Gala",
+    "eventDate": "2026-12-10",
+    "guests": 300,
+    "budget": "$40,000+",
+    "priority": "normal",
+    "status": "in-progress",
+    "adminNotes": "Sent initial deck and venue options in downtown.",
+    "createdAt": "2026-09-16T06:25:28.494Z"
+  },
+  {
+    "_id": "msg-103",
+    "name": "Elena Rostova",
+    "email": "elena.rostova@gmail.com",
+    "subject": "30th Birthday Masquerade Ball",
+    "message": "Looking to host a chic masquerade party with 60 guests. Need DJ, ambient lighting, signature cocktails, and gourmet finger foods.",
+    "eventType": "Party Planning",
+    "eventDate": "2026-10-30",
+    "guests": 65,
+    "budget": "$5,000 - $10,000",
+    "priority": "normal",
+    "status": "confirmed",
+    "adminNotes": "Deposit confirmed! DJ booked.",
+    "createdAt": "2026-09-14T08:25:28.494Z"
+  }
+]

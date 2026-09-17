@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="weddingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d132c"/>
+      <stop offset="50%" stop-color="#801336"/>
+      <stop offset="100%" stop-color="#ee4540"/>
+    </linearGradient>
+    <filter id="weddingGlow">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="600" height="400" rx="28" fill="url(#weddingGrad)"/>
+  <!-- Decorative Floral/Arch elements -->
+  <circle cx="300" cy="180" r="110" fill="none" stroke="#ffd700" stroke-width="2" opacity="0.4" stroke-dasharray="6 6"/>
+  <circle cx="300" cy="180" r="130" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Interlocking Wedding Rings -->
+  <g transform="translate(300, 170)" filter="url(#weddingGlow)">
+    <circle cx="-25" cy="0" r="45" fill="none" stroke="#ffd700" stroke-width="6"/>
+    <circle cx="25" cy="0" r="45" fill="none" stroke="#ffffff" stroke-width="6"/>
+    <!-- Diamond spark -->
+    <polygon points="-25,-55 -17,-43 -25,-32 -33,-43" fill="#ffffff"/>
+  </g>
+  
+  <!-- Floating Hearts & Sparkles -->
+  <circle cx="160" cy="110" r="4" fill="#ffd700" opacity="0.8"/>
+  <circle cx="450" cy="120" r="5" fill="#fff" opacity="0.8"/>
+  <circle cx="140" cy="270" r="6" fill="#ffd700" opacity="0.6"/>
+  <circle cx="470" cy="250" r="4" fill="#fff" opacity="0.7"/>
+
+  <!-- Typography -->
+  <text x="50%" y="330" fill="#ffffff" font-family="'Inter', sans-serif" font-size="28" font-weight="700" text-anchor="middle" letter-spacing="1">
+    Wedding Planning
+  </text>
+  <text x="50%" y="360" fill="#ffd700" font-family="'Inter', sans-serif" font-size="16" font-weight="500" text-anchor="middle" opacity="0.9">
+    Luxury • Timeless • Magical
+  </text>
+</svg>

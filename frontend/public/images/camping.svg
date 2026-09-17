@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="campGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#134e5e"/>
+      <stop offset="100%" stop-color="#71b280"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="28" fill="url(#campGrad)"/>
+  
+  <!-- Mountains, Tent & Campfire -->
+  <polygon points="120,240 240,110 360,240" fill="#0b2e38" opacity="0.5"/>
+  <polygon points="260,240 380,90 500,240" fill="#09252d" opacity="0.6"/>
+  <!-- Glamping Tent -->
+  <polygon points="220,240 290,140 360,240" fill="#f8fafc"/>
+  <polygon points="270,240 290,170 310,240" fill="#ff7a00"/>
+  <!-- Campfire -->
+  <circle cx="390" cy="235" r="14" fill="#ff512f"/>
+  <circle cx="390" cy="230" r="8" fill="#ffd700"/>
+
+  <!-- Typography -->
+  <text x="50%" y="330" fill="#ffffff" font-family="'Inter', sans-serif" font-size="28" font-weight="700" text-anchor="middle" letter-spacing="1">
+    Camping & Retreats
+  </text>
+  <text x="50%" y="360" fill="#ffd700" font-family="'Inter', sans-serif" font-size="16" font-weight="500" text-anchor="middle" opacity="0.9">
+    Glamping • Stargazing • Bonfire BBQs
+  </text>
+</svg>

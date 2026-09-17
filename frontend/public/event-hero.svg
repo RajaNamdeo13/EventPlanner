@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="60%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </radialGradient>
+    <linearGradient id="goldOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9933"/>
+      <stop offset="50%" stop-color="#ff7a00"/>
+      <stop offset="100%" stop-color="#e56b00"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="stageGlow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 122, 0, 0.45)"/>
+      <stop offset="50%" stop-color="rgba(255, 122, 0, 0.1)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+
+  <!-- Stage Lights & Spotlights -->
+  <polygon points="600,0 200,800 1000,800" fill="url(#stageGlow)"/>
+  <polygon points="200,0 0,800 450,800" fill="url(#stageGlow)" opacity="0.4"/>
+  <polygon points="1000,0 750,800 1200,800" fill="url(#stageGlow)" opacity="0.4"/>
+
+  <!-- Geometric Abstract Event Arches -->
+  <circle cx="600" cy="380" r="280" fill="none" stroke="url(#goldOrange)" stroke-width="2" opacity="0.25" stroke-dasharray="8 8"/>
+  <circle cx="600" cy="380" r="210" fill="none" stroke="url(#neonCyan)" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="600" cy="380" r="140" fill="none" stroke="#ff7a00" stroke-width="1" opacity="0.3"/>
+
+  <!-- Stage Platform -->
+  <ellipse cx="600" cy="650" rx="420" ry="90" fill="#131c31" stroke="url(#goldOrange)" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="600" cy="640" rx="340" ry="70" fill="#1a243c" stroke="url(#neonCyan)" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Sparkling / Floating Stars & Confetti Particles -->
+  <g filter="url(#glow)">
+    <!-- Confetti ribbons & bubbles -->
+    <circle cx="280" cy="240" r="6" fill="#ff9933" opacity="0.8"/>
+    <circle cx="920" cy="220" r="7" fill="#00f2fe" opacity="0.8"/>
+    <circle cx="340" cy="460" r="4" fill="#ff7a00" opacity="0.7"/>
+    <circle cx="860" cy="480" r="5" fill="#ffd700" opacity="0.9"/>
+    <circle cx="500" cy="180" r="8" fill="#ff9933" opacity="0.6"/>
+    <circle cx="700" cy="190" r="6" fill="#00f2fe" opacity="0.6"/>
+    <circle cx="180" cy="380" r="9" fill="#ff512f" opacity="0.7"/>
+    <circle cx="1020" cy="390" r="8" fill="#ffd700" opacity="0.7"/>
+
+    <!-- Stars -->
+    <path d="M600 240 L605 255 L620 260 L605 265 L600 280 L595 265 L580 260 L595 255 Z" fill="#ffffff"/>
+    <path d="M420 320 L423 330 L433 333 L423 336 L420 346 L417 336 L407 333 L417 330 Z" fill="#ffd700"/>
+    <path d="M780 310 L783 320 L793 323 L783 326 L780 336 L777 326 L767 323 L777 320 Z" fill="#00f2fe"/>
+  </g>
+
+  <!-- Central Festive Iconography: Elegant Champagne Glasses & Fireworks -->
+  <g transform="translate(600, 420)">
+    <!-- Fireworks burst -->
+    <line x1="0" y1="-80" x2="0" y2="-150" stroke="#ff9933" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-60" y1="-60" x2="-110" y2="-110" stroke="#ffd700" stroke-width="2" stroke-linecap="round"/>
+    <line x1="60" y1="-60" x2="110" y2="-110" stroke="#00f2fe" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-80" y1="0" x2="-150" y2="0" stroke="#ff7a00" stroke-width="2" stroke-linecap="round"/>
+    <line x1="80" y1="0" x2="150" y2="0" stroke="#ff7a00" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Champagne Glass Left -->
+    <path d="M-40 -40 L-15 20 L-10 70 L-25 75 L-25 80 L5 80 L5 75 L-10 70 L-15 20 L10 -40 Z" fill="none" stroke="url(#goldOrange)" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Champagne Glass Right -->
+    <path d="M40 -40 L15 20 L10 70 L25 75 L25 80 L-5 80 L-5 75 L10 70 L15 20 L-10 -40 Z" fill="none" stroke="#ffd700" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- Toast Sparkles at intersection -->
+    <circle cx="0" cy="-30" r="12" fill="url(#goldOrange)" filter="url(#glow)"/>
+    <circle cx="0" cy="-30" r="6" fill="#ffffff"/>
+  </g>
+
+  <!-- Soundwave / Beat bar rhythm -->
+  <g transform="translate(480, 560)" opacity="0.8">
+    <rect x="0" y="20" width="8" height="40" rx="4" fill="#ff7a00"/>
+    <rect x="18" y="10" width="8" height="60" rx="4" fill="#ff9933"/>
+    <rect x="36" y="0" width="8" height="80" rx="4" fill="#ffd700"/>
+    <rect x="54" y="25" width="8" height="50" rx="4" fill="#00f2fe"/>
+    <rect x="72" y="15" width="8" height="70" rx="4" fill="#ff7a00"/>
+    <rect x="90" y="35" width="8" height="30" rx="4" fill="#ff9933"/>
+    <rect x="108" y="5" width="8" height="90" rx="4" fill="#ffd700"/>
+    <rect x="126" y="20" width="8" height="60" rx="4" fill="#00f2fe"/>
+    <rect x="144" y="10" width="8" height="80" rx="4" fill="#ff7a00"/>
+    <rect x="162" y="28" width="8" height="44" rx="4" fill="#ff9933"/>
+    <rect x="180" y="35" width="8" height="30" rx="4" fill="#ffd700"/>
+    <rect x="198" y="15" width="8" height="70" rx="4" fill="#00f2fe"/>
+    <rect x="216" y="25" width="8" height="50" rx="4" fill="#ff7a00"/>
+  </g>
+</svg>

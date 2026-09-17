@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="annivGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141e30"/>
+      <stop offset="100%" stop-color="#243b55"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="28" fill="url(#annivGrad)"/>
+  
+  <g transform="translate(300, 160)">
+    <!-- Golden laurel wreath -->
+    <path d="M-80,0 Q-100,-60 -40,-90 Q-70,-30 -50,10" fill="#ffd700" opacity="0.8"/>
+    <path d="M80,0 Q100,-60 40,-90 Q70,-30 50,10" fill="#ffd700" opacity="0.8"/>
+    <!-- Champagne flute cheers -->
+    <path d="M-20,-40 L-10,10 L-8,45 L-18,50 L-18,55 L2,55 L2,50 L-6,45 L-4,10 L10,-40 Z" fill="none" stroke="#ffd700" stroke-width="3"/>
+    <path d="M20,-40 L10,10 L8,45 L18,50 L18,55 L-2,55 L-2,50 L6,45 L4,10 L-10,-40 Z" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="0" cy="-35" r="8" fill="#ff7a00"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="50%" y="330" fill="#ffffff" font-family="'Inter', sans-serif" font-size="28" font-weight="700" text-anchor="middle" letter-spacing="1">
+    Anniversary Planning
+  </text>
+  <text x="50%" y="360" fill="#ffd700" font-family="'Inter', sans-serif" font-size="16" font-weight="500" text-anchor="middle" opacity="0.9">
+    Milestones • Intimate Dinners • Serenades
+  </text>
+</svg>

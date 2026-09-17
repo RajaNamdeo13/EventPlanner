@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "evt-1",
+    "title": "Grand Royal Wedding",
+    "category": "Weddings",
+    "date": "2026-10-15",
+    "guests": "250 - 500 Guests",
+    "priceRange": "$15,000 - $35,000",
+    "description": "Complete luxury wedding planning including floral design, venue decor, catering management, and live orchestra.",
+    "image": "/images/wedding.svg",
+    "featured": true,
+    "status": "Upcoming"
+  },
+  {
+    "_id": "evt-2",
+    "title": "Global Tech Summit & Gala",
+    "category": "Corporate",
+    "date": "2026-11-02",
+    "guests": "400 - 800 Guests",
+    "priceRange": "$20,000 - $50,000",
+    "description": "Seamless corporate conference management with AV setup, keynote stages, VIP dining, and networking lounge.",
+    "image": "/images/party.svg",
+    "featured": true,
+    "status": "Upcoming"
+  },
+  {
+    "_id": "evt-3",
+    "title": "Golden Jubilee Anniversary",
+    "category": "Anniversary",
+    "date": "2026-09-28",
+    "guests": "80 - 150 Guests",
+    "priceRange": "$5,000 - $12,000",
+    "description": "Heartwarming celebration with personalized photo galleries, acoustic serenade, banquet dining, and keepsake favors.",
+    "image": "/images/anniversary.svg",
+    "featured": true,
+    "status": "Upcoming"
+  },
+  {
+    "_id": "evt-4",
+    "title": "Neon Glow Birthday Extravaganza",
+    "category": "Birthday",
+    "date": "2026-10-05",
+    "guests": "50 - 120 Guests",
+    "priceRange": "$3,500 - $8,000",
+    "description": "High-energy themed birthday bash with custom LED lighting, DJ, mocktail bar, and interactive photo booth.",
+    "image": "/images/birthday.svg",
+    "featured": false,
+    "status": "Upcoming"
+  },
+  {
+    "_id": "evt-5",
+    "title": "Starlight Wilderness Retreat",
+    "category": "Camping",
+    "date": "2026-11-20",
+    "guests": "30 - 70 Guests",
+    "priceRange": "$6,000 - $14,000",
+    "description": "Glamping adventure under the stars with bonfire acoustic jam, gourmet barbecue, stargazing guides, and team games.",
+    "image": "/images/camping.svg",
+    "featured": false,
+    "status": "Upcoming"
+  },
+  {
+    "_id": "evt-6",
+    "title": "Ultimate Esports & Board Game Night",
+    "category": "Game Night",
+    "date": "2026-10-22",
+    "guests": "40 - 100 Guests",
+    "priceRange": "$2,500 - $5,500",
+    "description": "Curated gaming tournament experience with multi-screen setups, tournament brackets, gaming snacks, and trophies.",
+    "image": "/images/gamenight.svg",
+    "featured": false,
+    "status": "Upcoming"
+  }
+]
